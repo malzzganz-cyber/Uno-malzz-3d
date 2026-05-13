@@ -1,12 +1,12 @@
 {
 "name": "uno-game",
-"version": "1.0.0",
 "private": true,
+"version": "1.0.0",
 "type": "module",
 "scripts": {
-"dev": "vite --host 0.0.0.0",
+"dev": "vite --host",
 "build": "vite build",
-"preview": "vite preview --host 0.0.0.0"
+"preview": "vite preview"
 },
 "dependencies": {
 "@hookform/resolvers": "^3.10.0",
@@ -39,9 +39,7 @@
 "@radix-ui/react-tooltip": "^1.2.0",
 "@react-three/drei": "^10.7.7",
 "@react-three/fiber": "^9.6.1",
-"@tailwindcss/typography": "^0.5.15",
 "@tanstack/react-query": "^5.81.5",
-"@vitejs/plugin-react": "^4.7.0",
 "class-variance-authority": "^0.7.1",
 "clsx": "^2.1.1",
 "cmdk": "^1.1.1",
@@ -72,6 +70,7 @@
 "@types/node": "^24.3.0",
 "@types/react": "^19.1.10",
 "@types/react-dom": "^19.1.7",
+"@vitejs/plugin-react": "^4.7.0",
 "autoprefixer": "^10.4.21",
 "postcss": "^8.5.6",
 "tailwindcss": "^3.4.17",
